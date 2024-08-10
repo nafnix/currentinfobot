@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "charliermarsh.ruff",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "esbenp.prettier-vscode",
+    "skellock.just",
+    "antfu.file-nesting",
+    "streetsidesoftware.code-spell-checker",
+    "njpwerner.autodocstring"
+  ]
+}

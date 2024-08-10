@@ -1,0 +1,39 @@
+{
+  "files.exclude": {
+    // ".venv": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.ruff_cache": true
+    // "htmlcov": true,
+    // ".coverage": true
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hans": true,
+    "zh-hant": true
+  },
+
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  // "python.testing.pytestArgs": ["tests"],
+  // "python.testing.unittestEnabled": false,
+  // "python.testing.pytestEnabled": true,
+
+  "python.analysis.fixAll": ["source.convertImportFormat"],
+  // "python.analysis.diagnosticSeverityOverrides": {
+  //   "reportGeneralTypeIssues": "none"
+  // },
+
+  "autoDocstring.docstringFormat": "sphinx-notypes",
+  //   "[dockerfile]": {
+  //     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  //   },
+  //   "[shellscript]": {
+  //     "editor.defaultFormatter": "mkhl.shfmt"
+  //   },
+  "python.analysis.typeCheckingMode": "basic"
+}
